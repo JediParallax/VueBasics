@@ -1,6 +1,6 @@
 <template>
     <div class="component-division">
-        <h1>Hola Vida</h1>
+        <h1>Hola Vida, como estai</h1>
         <hr>
         <span v-if="mood">
             <p v-html="happy"></p>
