@@ -91,8 +91,9 @@ export default {
         background-color: #41B883;
         border: 3px solid #35495E;
         color:#35495E;   
-        font-family:'Times New Roman', Times, serif;
-        font-weight: bold;
+        transform: scale(0, 20px);
+        transition: .4s;
+
     }
 
      #foreigner{
