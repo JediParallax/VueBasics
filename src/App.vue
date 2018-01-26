@@ -62,4 +62,8 @@ form.routers{
   margin: 20px;
 }
 
+button{
+  margin: .3rem;
+}
+
 </style>
