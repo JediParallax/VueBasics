@@ -33,11 +33,12 @@
              this.users.push(this.newUser);
              this.newUser = {};
             },
+            // deleteUser() isn't working properly
             deleteUser(user){
                 this.users.splice(this.users.indexOf(user), 1);
             }
         },
-
+        
         created() {
             this.$http.get('https://jsonplaceholder.typicode.com/users')
             .then(res => this.users = res.body);
