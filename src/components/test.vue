@@ -1,14 +1,12 @@
 <template>
     <div class="component-division">
-        <h1>Hola Vida, como estai</h1>
-        <hr>
+        <h1>Hola Mundo</h1>
+        
         <span v-if="mood">
             <p v-html="happy"></p>
-            <hr>
         </span>
         <span v-else>
-            <p v-html="sad"></p>
-            <hr>
+            <p v-html="sad"></p>   
         </span>
         <ul>
             <li>{{user.name}}</li>
@@ -16,14 +14,17 @@
             <li v-for=" task in stuff">
                 {{task.title}}
             </li>
-        </ul>
-        <hr>
-       <input class="testInputs" type="text" v-model="user.name" @keyup.74="jMonitor" @keyup.9="tabMonitor">
-       <input class="testInputs" type="text" v-model="user.lastName" @keyup.74="jMonitor">
-       <button class="testButtons" type="button" v-on:click="saludar(user.name, user.lastName)">click me</button>
-       <hr>
-        <button class="testButtons" @click.left="left()" @click.middle="middle()" @click.right="right()" id="foreigner">{{msg}}</button>
-
+        </ul> 
+        <form action="">
+            <label for="nombre">Nombre:</label>
+            <input class="testInputs" type="text" name="nombre" v-model="user.name" @keyup.74="jMonitor" @keyup.9="tabMonitor"><br>
+            <label for="apellido">Apellido:</label>
+            <input class="testInputs" name="apellido" type="text" v-model="user.lastName" @keyup.74="jMonitor"><br>
+            <label for="notImportantThing">Id_1234</label>
+            <input class="testInputs" name="notImportantThing" type="text" v-model="user.lastName" @keyup.74="jMonitor"><br>
+            <button class="testButtons" type="button" v-on:click="saludar(user.name, user.lastName)">click me</button><br>
+            <button class="testButtons" @click.left.prevent="left()" @click.middle="middle()" @click.right="right()" id="foreigner">{{msg}}</button>
+       </form>
     </div>
     
 </template>
@@ -104,6 +105,7 @@ export default {
     .testInputs {
         background-color: rgb(218, 240, 230);
         border: 3px solid #41B883;
+        margin: .5rem;
     }
 
    
