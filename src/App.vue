@@ -63,8 +63,7 @@ form.routers{
 }
 
 button{
-  margin: 6px;
+  margin: .3rem;
 }
-
 
 </style>

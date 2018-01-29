@@ -1,0 +1,30 @@
+commit ea5c6dd4ded7290598e87772e0c8e26e0b7ee7d7
+Merge: e7e1ee4 e2e25f0
+Author: JediParallax <joanmonterrey@gmail.com>
+Date:   Fri Jan 26 09:11:12 2018 -0300
+
+    Merge branch 'master' of https://github.com/JediParallax/project1
+
+commit e7e1ee49e6f5fe00f182d6aee5e3f02a2e307e03
+Author: JediParallax <joanmonterrey@gmail.com>
+Date:   Fri Jan 26 08:18:07 2018 -0300
+
+    se agrego animaicion al boton que dice ser una variable foranea
+
+commit 0d40d7fe01107ef0fafb9a8791a70549b600c7d5
+Author: JediParallax <joanmonterrey@gmail.com>
+Date:   Fri Jan 26 08:05:48 2018 -0300
+
+    Hay que acomodar este metodo
+
+commit e2e25f009d99f803dc77e37e72a75aa8c1b3e987
+Author: Abel Rafael Obando Florián <aobandof@outlook.com>
+Date:   Thu Jan 25 13:24:38 2018 -0300
+
+    para ver si funca
+
+commit ece1d0661d8865e5f376f9b67e011797173594be
+Author: JediParallax <joanmonterrey@gmail.com>
+Date:   Thu Jan 25 13:13:40 2018 -0300
+
+    Vuejs Project
