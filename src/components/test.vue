@@ -24,6 +24,7 @@
             <input class="testInputs" name="notImportantThing" type="text" v-model="user.lastName" @keyup.74="jMonitor"><br>
             <button class="testButtons" type="button" v-on:click="saludar(user.name, user.lastName)">click me</button><br>
             <button class="testButtons" @click.left.prevent="left()" @click.middle="middle()" @click.right="right()" id="foreigner">{{msg}}</button>
+            <button class="testButtons">Another Change</button>
        </form>
     </div>
     
