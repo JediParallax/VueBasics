@@ -20,7 +20,7 @@
             <input class="testInputs" type="text" name="nombre" v-model="user.name" @keyup.74="jMonitor" @keyup.9="tabMonitor"><br>
             <label for="apellido">Apellido:</label>
             <input class="testInputs" name="apellido" type="text" v-model="user.lastName" @keyup.74="jMonitor"><br>
-            <label for="notImportantThing">Not Important thing:</label>
+            <label for="notImportantThing">Not Important thing OOOeoeo:</label>
             <input class="testInputs" name="notImportantThing" type="text" v-model="user.lastName" @keyup.74="jMonitor"><br>
             <button class="testButtons" type="button" v-on:click="saludar(user.name, user.lastName)">click me</button><br>
             <button class="testButtons" @click.left.prevent="left()" @click.middle="middle()" @click.right="right()" id="foreigner">{{msg}}</button>
