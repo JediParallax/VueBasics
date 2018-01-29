@@ -25,6 +25,8 @@
             <button class="testButtons" type="button" v-on:click="saludar(user.name, user.lastName)">click me</button><br>
             <button class="testButtons" @click.left.prevent="left()" @click.middle="middle()" @click.right="right()" id="foreigner">{{msg}}</button>
             <button class="testButtons">Another Change</button>
+            <button class="testButtons">Aaaand, another!</button>
+            
        </form>
     </div>
     
