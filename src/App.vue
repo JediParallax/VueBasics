@@ -24,14 +24,16 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+@import "~styles/colors";
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   margin-top: 60px;
-  background-color: rgb(71, 95, 121);
+  
   color:  rgb(186, 221, 205);
   
 }
